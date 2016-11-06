@@ -1,0 +1,27 @@
+{
+  "name": "mcscrape",
+  "version": "1.0.0",
+  "description": "mongoose cheerio scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabeckett/mcScrape.git"
+  },
+  "author": "Andrew Beckett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabeckett/mcScrape/issues"
+  },
+  "homepage": "https://github.com/mabeckett/mcScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.6",
+    "request": "^2.78.0"
+  }
+}
